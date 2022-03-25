@@ -1,0 +1,22 @@
+{
+    "name": "q/php-blog",
+    "description": "Blog on Php using MySQL",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Q\\PhpBlog\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mariia Myhulia",
+            "email": "myhulia.maria@gmail.com"
+        }
+    ],
+
+    "minimum-stability": "stable",
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.5"
+    }
+}
